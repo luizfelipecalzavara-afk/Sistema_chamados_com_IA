@@ -1,0 +1,11 @@
+CHAMADOIA V3 - CORRECAO REDE + EXCLUSAO ADMIN
+
+1) PARE qualquer node antigo (Ctrl+C).
+2) Abra terminal NESTA pasta.
+3) Rode: node backend/server.js
+4) Abra http://localhost:3000/api/versao
+   Deve aparecer: {"versao":"V3-REDE-EXCLUSAO","ok":true}
+5) Depois abra http://localhost:3000 e use Ctrl+F5.
+
+Teste de rede/DNS: a IA deve normalizar para verificar_conexao_rede, executar a automacao simulada e, com rede_ok, marcar Resolvido pela IA.
+Exclusao: somente ADM, via POST /api/chamados/:id/excluir-admin.

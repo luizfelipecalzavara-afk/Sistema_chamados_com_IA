@@ -1,0 +1,12 @@
+CHAMADOIA V4 FINAL
+
+1. NAO execute a copia antiga.
+2. Dê dois cliques em INICIAR_V4.bat.
+3. Abra http://localhost:3101/api/versao
+   Deve mostrar: V4-FINAL-REDE-EXCLUSAO
+4. Depois abra http://localhost:3101 e use o sistema.
+
+A porta 3101 foi escolhida de propósito para impedir que um backend antigo na porta 3000 responda aos testes.
+
+Teste de rede esperado: Verificar Conexao de Rede -> rede_ok -> Resolvido pela IA.
+Exclusao: somente administrador, pela rota POST /api/chamados/:id/excluir-admin.
